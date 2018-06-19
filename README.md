@@ -6,7 +6,7 @@ GraphQL is perfectly poised to capitalize on blockchain innovations. With its si
 
 The order is intended to be prioritized and chronological, but is subject to change.
 
-- [ ] Minimum viable prototype running on the EVM
+- [ ] Minimum viable GraphQL implementation running on the EVM
 - [ ] Full GraphQL implementation running on the EVM
 - [ ] Minimum viable auto-generating data access layer running on the EVM (see [Prisma](https://github.com/prismagraphql/prisma))
 - [ ] Full auto-generating data access layer running on the EVM (see [Prisma](https://github.com/prismagraphql/prisma))
