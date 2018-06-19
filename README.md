@@ -1,6 +1,6 @@
 # GraphDC
 
-Decentralized GraphQL is an implementation of GraphQL for blockchain virtual machines.
+Decentralized GraphQL is an implementation of GraphQL running on blockchain virtual machines. Its code literally runs directly on the blockchain. The goal is to create an unstoppable GraphQL backend with 100% uptime, infinite scalability, amazing security and privacy, and extremely simplified infrastructure and maintenance.
 
 ## Roadmap
 
