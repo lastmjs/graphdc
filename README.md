@@ -2,6 +2,12 @@
 
 Decentralized GraphQL is an implementation of GraphQL running on blockchain virtual machines. Its code literally runs directly on the blockchain. The goal is to create an unstoppable GraphQL backend with 100% uptime, infinite scalability, amazing security and privacy, and extremely simplified infrastructure and maintenance.
 
+## Vision
+
+The goal is to allow for decentralized GraphQL backends that have all of the properties that scalable blockchains promise to provide, including 100% uptime, infinite scalability, and extremely low maintenance. All of the complicated hardware and software infrastructure related to scaling backends need not be, because of past and future innovations in blockchain technologies. No more complicated infrastructure, no more scaling and uptime issues, just pure client-side GraphQL queries that resolve against an unstoppable decentralized backend.
+
+This project will start with a GraphQL implementation running on the EVM, allowing GraphQL queries to resolve against state stored through the Ethereum blockchain. This will be a complete replacement for a GraphQL backend, allowing the user to move their entire database business logic to the Ethereum blockchain. The interface will most likely be implemented as a smart contract. The contract will receive GraphQL queries, and will automatically parse and execute the underlying read or write, storing or reading from the Ethereum blockchain. The contract will allow custom schemas to be uploaded, and will respond by generating queries for all basic CRUD operations. This behavior will be very similar to the [Prisma](https://github.com/prismagraphql/prisma) project, but running as a smart contract.
+
 ## Roadmap
 
 The order is intended to be prioritized and chronological, but is subject to change.
